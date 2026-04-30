@@ -1,0 +1,15 @@
+# ignore the output directories
+bin/
+objs/
+
+# temporary name patterns
+*.tmp
+*.temp
+*.tmp.*
+*.temp.*
+
+# other lingering output files
+*.out
+*.elf
+*.o
+*.obj
