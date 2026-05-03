@@ -11,7 +11,7 @@ OBJDIR := $(RP)/objs/bootloader
 OUT := $(OUTDIR)/bootloader.bin
 
 AS := nasm
-ASFLAGS := -f elf64
+ASFLAGS := -f bin
 
 SRCS := boot.asm
 OBJS := $(patsubst %.asm,$(OBJDIR)/%.elf,$(SRCS))
